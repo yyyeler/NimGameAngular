@@ -1,0 +1,40 @@
+.mlr-1
+{
+
+    margin: 0 1rem;
+}
+
+.titleDiv
+{
+    background-color: brown;
+    color:wheat;
+    border-radius: 10px;
+}
+
+.container
+{
+    background-color: wheat;
+    border-radius: 10px;
+}
+
+.mt-6
+{
+ margin-top: 6rem   
+}
+
+.h-64
+{
+    height: 64px;
+}
+
+.btnColor
+{
+   background-color:  brown !important;
+   border-color: brown !important;
+}
+
+.btnColor:hover
+{
+    background-color:  #c28080 !important;
+    border-color:  #c28080 !important;
+}
