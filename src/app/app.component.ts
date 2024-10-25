@@ -25,10 +25,9 @@ export class AppComponent implements OnInit{
     [3, [true, true, true, true, true, true, true]]
   ]);
   protected isUser1 : boolean = true;  
-  protected counter : number = 3;
 
   ngOnInit(): void {
-    console.log("YYY");
+    console.log("YYY 8 TNG");
   }
 
   protected makePassiveLastElement(i : number)
@@ -40,9 +39,8 @@ export class AppComponent implements OnInit{
         this.selectedRow = i;
       }
   
-      if(this.counter>0 && this.selectedRow === i)
+      if(this.selectedRow === i)
       {
-        this.counter--;
         let rowData = this.values.get(i);
         rowData![this.progressValues[i]-1] = false;
         this.progressValues[i]--;
@@ -55,8 +53,6 @@ export class AppComponent implements OnInit{
 
   protected makeOpponentMove()
   {
-    console.log("makeOpponentMove");
-    this.counter = 3;
     this.isUser1 = !this.isUser1;
     this.selectedRow = -1;
   }
